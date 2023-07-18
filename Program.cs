@@ -31,6 +31,15 @@ namespace WampTest1
             WaitForUserExit();
         }
 
+        public static async Task ConnectWamp()
+        {
+            WampIF = new WampInterface();
+
+            await WampIF.ConnectToLocalServer();
+            // await WampIF.ConnectToRemoteServer();
+        }
+
+
         private static void WaitForUserExit()
         {
             string input;
@@ -42,15 +51,6 @@ namespace WampTest1
                     break;
             }
         }
-
-        public static async Task ConnectWamp()
-        {
-            WampIF = new WampInterface();
-
-            await WampIF.ConnectToLocalServer();  
-            // await WampIF.ConnectToRemoteServer();
-        }
-
         /// <summary>
         /// Capture Application.ThreadException and AppDomain.Unhandled Exception events
         /// </summary>
