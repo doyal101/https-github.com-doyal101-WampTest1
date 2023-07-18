@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WampTest1", "WampTest1.csproj", "{1663AB6C-D86D-4321-B219-0FD1418E6D0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1663AB6C-D86D-4321-B219-0FD1418E6D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1663AB6C-D86D-4321-B219-0FD1418E6D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1663AB6C-D86D-4321-B219-0FD1418E6D0B}.Debug|x64.ActiveCfg = Debug|x64
+		{1663AB6C-D86D-4321-B219-0FD1418E6D0B}.Debug|x64.Build.0 = Debug|x64
+		{1663AB6C-D86D-4321-B219-0FD1418E6D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1663AB6C-D86D-4321-B219-0FD1418E6D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1663AB6C-D86D-4321-B219-0FD1418E6D0B}.Release|x64.ActiveCfg = Release|x64
+		{1663AB6C-D86D-4321-B219-0FD1418E6D0B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EDFFBC4-A59C-4DE5-BFC7-5A1597379BFB}
+	EndGlobalSection
+EndGlobal
